@@ -1,0 +1,79 @@
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.menu {
+  border: 2px solid #fff;  /* For debugging */
+  width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center
+}
+
+.grind-container {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grid {
+	width: 900px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.center_image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.description1 {
+	max-width: 1000px;
+	min-width: 950px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-left: 40px;
+}
+
+h3 {
+	margin-left: 60px;
+}
+
+p {
+	margin-left: 85px;
+}
+
+img {
+	margin-left: 200px;
+}
+
+#init_descript {
+	text-align: center;
+}
+
+.menu-container {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.menu-container a{
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+}
